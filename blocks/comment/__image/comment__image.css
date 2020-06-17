@@ -1,0 +1,12 @@
+.comment__image {
+	width: 97px;
+	height: 97px;
+}
+
+@media screen and (max-width: 767px) {
+	.comment__image {
+		display: flex;
+		margin: 0 auto;
+		order: 1;
+	}
+}

@@ -1,0 +1,10 @@
+.footer__index {
+	margin: 0 auto;
+}
+
+@media screen and (max-width: 424px) {
+	.footer__index {
+		margin: 0 16px;
+	}
+}
+}

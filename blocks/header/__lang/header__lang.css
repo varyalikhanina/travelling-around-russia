@@ -1,0 +1,14 @@
+@import url('../__lang-item/header__lang-item.css');
+@import url('../__lang-item/_type/header__lang-item_type_active.css');
+
+.header__lang {
+	display: flex;
+	margin-top: 47px;
+}
+
+@media screen and (max-width: 424px) {
+	.header__lang {
+		max-height: 18px;
+		margin-top: 32px;
+	}
+}

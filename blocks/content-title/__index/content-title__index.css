@@ -1,0 +1,15 @@
+.content-title__index {
+	margin: 0 auto 48px;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+	.content-title {
+		margin-bottom: 24px;
+	}
+}
+
+@media screen and (max-width: 767px) {
+	.content-title__index {
+		margin-bottom: 16px;
+	}
+}

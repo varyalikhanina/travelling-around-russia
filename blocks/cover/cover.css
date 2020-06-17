@@ -1,0 +1,6 @@
+@import url('__container/cover__container.css');
+@import url('__index/cover__index.css');
+
+.cover {
+	max-width: 1184px;
+}

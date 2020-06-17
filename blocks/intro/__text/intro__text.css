@@ -1,0 +1,6 @@
+@import url('_type/_main/intro__text_type_main.css');
+@import url('_type/_figures/intro__text_type_figures.css');
+
+.intro__text {
+	color: #fff;
+}

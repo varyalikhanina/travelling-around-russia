@@ -1,0 +1,9 @@
+.places__index {
+	margin: 0 auto 102px;
+}
+
+@media screen and (max-width: 767px) {
+	.places__index {
+		margin-bottom: 64px;
+	}
+}

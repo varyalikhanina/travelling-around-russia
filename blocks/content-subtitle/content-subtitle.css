@@ -1,0 +1,24 @@
+@import url('__index/content-subtitle__index.css');
+
+.content-subtitle {
+	max-width: 640px;
+	font-weight: normal;
+	font-size: 24px;
+	line-height: 35px;
+	text-align: center;
+	color: #fff;
+}
+
+@media screen and (max-width: 1023px) {
+	.content-subtitle {
+		max-width: 343px;
+	}
+}
+
+@media screen and (max-width: 767px) {
+	.content-subtitle {
+		max-width: 288px;
+		font-size: 16px;
+		line-height: 23px;
+	}
+}

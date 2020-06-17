@@ -1,0 +1,25 @@
+@import url('../__paragraph/place__paragraph.css');
+
+.place__paragraph-wrap {
+	max-width: 484px;
+	text-align: left;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1279px) {
+	.place__paragraph-wrap {
+		max-width: 456px;
+	}
+}
+
+@media screen and (min-width: 630px) and (max-width: 767px) {
+	.place__paragraph-wrap {
+		max-width: 352px;
+	}
+}
+
+@media screen and (max-width: 629px) {
+	.place__paragraph-wrap {
+		margin: 0 16px 48px 16px;
+		max-width: calc(100% - 16px - 16px);
+	}
+}

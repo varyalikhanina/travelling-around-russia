@@ -1,0 +1,25 @@
+.place__index {
+	margin: 0 auto 72px;
+}
+
+.place__index:last-child {
+	margin-bottom: 0;
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
+	.place__index {
+		margin: 0 auto 83px;
+	}
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
+	.place__index {
+		margin: 0 auto 83px;
+}
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+	.place__index {
+		margin: 0 auto 40px;
+}
+}

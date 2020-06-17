@@ -1,0 +1,44 @@
+@import url('../../comment/comment.css');
+
+.comments__container {
+	width: 100%;
+	display: flex;
+	margin: 30px auto 0;
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
+	.comments__container {
+		max-width: 925px;
+		margin: 30px auto 0;
+	}
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+	.comments__container {
+		max-width: calc(100% - 48px - 48px);
+		margin: 30px auto 0;
+	}
+}
+
+@media screen and (min-width: 501px) and (max-width: 767px) {
+	.comments__container {
+		max-width: calc(100% - 16px - 16px);
+		margin: 66px auto 0;
+	}
+}
+
+@media screen and (min-width: 375px) and (max-width: 500px) {
+	.comments__container {
+		display: block;
+		max-width: 343px;
+		margin: 42px auto 0;
+	}
+}
+
+@media screen and (max-width: 374px) {
+	.comments__container {
+		display: block;
+		max-width: 288px;
+		margin: 34px auto 0;
+	}
+}

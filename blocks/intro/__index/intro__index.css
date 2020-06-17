@@ -1,0 +1,17 @@
+.intro__index {
+	margin: 80px auto 102px;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+	.intro__index {
+		margin-right: 24px;
+		margin-left: 24px;
+	}
+}
+
+@media screen and (max-width: 767px) {
+	.intro__index {
+		margin-right: 15px;
+		margin-left: 15px;
+	}
+}
